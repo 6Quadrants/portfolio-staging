@@ -1,0 +1,159 @@
+/* NAVIGATION */
+
+.grid {
+    padding: 0;
+}
+
+.r-image {
+    width: 100%;
+}
+
+.r-image-src {
+    width: 100%;
+}
+
+#logo {
+    width: 125px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.navbar.navbar-expand-lg.navbar-light {
+    /* box-shadow: 0 5px 5px -2px rgba(64, 64, 64, 0.2); */
+    margin-bottom: 2em;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba (239, 103, 36, 1);
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url(/img/menu-01.svg);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 500;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    padding: .6em;
+    text-transform: uppercase;
+    color: #ef6724;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: #ef6724;
+    border-radius: 2px;
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:a {
+    color: rgba (86, 35, 15, .3);
+}
+
+/* .navbar-collapse.justify-content-end.collapse.show {
+    width: 100%;
+    padding: 1em;
+    background-color: #999999;
+} */
+
+/* INTRO */
+
+/* #intro {
+    height: 100vh;
+} */
+
+/* portfolio feature grid */
+
+.project-card {
+    max-width: 100%;
+    padding: 0 1.6em;
+
+}
+
+.project-category-tag  {
+    font-size: .7em;
+    font-weight: 600;
+    letter-spacing: .15rem;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 2.6rem;
+    color: #878787;
+    background-color: #f0f0f0;
+    padding: .6em 1.6em;
+    border-radius: 8em;
+    margin-right: 1em;
+}
+
+/* .project-card-image {
+    max-width: 100%;
+} */
+
+.featured-image {
+    width: 100%;
+    box-shadow: 0 23px 20px -12px rgba(64, 64, 64, 0.3);
+}
+
+/* PORTFOLIO PROJECT PAGE */
+
+.project-category-tag.large {
+    font-size: 1em;
+}
+
+.intro-title {
+    margin-bottom: 3.6em;
+}
+
+.intro-category {
+    margin-bottom: 1.8em;
+}
+
+.row.hero {
+    align-items:center;
+}
+
+.col-md-12.lg-text-intro {
+    padding-right: 2.8em;
+    padding-left: 0;
+}
+
+.lg-pic-intro {
+    width: 100%;
+}
+
+.large-picture {
+    max-width: 100%;
+}
+
+.text-box-callout {
+    background-color: #F9F9F9;
+}
+
+.highlight-text-box {
+    margin-top: -2em;
+    padding: 4em 3em;
+    border-radius: 3px;
+    border: solid 6px #69EA9D;
+}
+
+
+/* PROJECT-ALT */
+
+.first-row {
+    background-color: #c0c0c0;
+}
+
+
+
+
+@media (max-width: 575.98px) { 
+
+    .project-card.card-image {
+        padding: 0;
+    }
+    
+    
+    
+    }
